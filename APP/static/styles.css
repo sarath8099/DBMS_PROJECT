@@ -1,0 +1,49 @@
+/* Set background color */
+body {
+    background-color: #f3e9d2; /* Cream */
+}
+
+/* Style for colorful buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6b5b95; /* Royal purple */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #6b5b95; /* Royal purple border */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #563d7c; /* Darker royal purple */
+    border-color: #563d7c; /* Darker royal purple border */
+}
+
+/* Style for form inputs */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style for form submit button */
+.submit-button {
+    background-color: #39a2db; /* Sky blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for form submit button */
+.submit-button:hover {
+    background-color: #136f8c; /* Darker sky blue */
+}
